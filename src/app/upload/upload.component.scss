@@ -1,0 +1,14 @@
+.file-area-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  padding: 0 50px;
+  text-align: center;
+
+  .ngx-file-drop__drop-zone {
+    border-radius: 10px;
+    padding: 0 50px;
+  }
+}
